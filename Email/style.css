@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&family=Protest+Revolution&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+.container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(9, 69, 70);
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+.wrapper{
+    color: #fff; 
+    padding: 20 20 20 20; 
+    box-sizing: border-box; 
+  
+}
+
+.wrapper p.message{
+    
+    line-height: 2;
+}
+
+.wrapper p.code {
+    border: 1px solid #fff; /* Decrease the border width */
+    border-radius: 20px;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold; 
+    font-size: 35px;
+    letter-spacing: 20;
+
+}
